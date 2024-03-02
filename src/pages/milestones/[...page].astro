@@ -19,7 +19,7 @@ type GetStaticPaths = {
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
+  const allPosts = await Astro.glob<IFrontmatter>('../posts/milestones/*.md');
   const sortedPosts = sortByDate(allPosts);
 
   // Return a paginated collection of paths for all posts
@@ -32,17 +32,16 @@ interface Props {
 
 const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
-const titleBase = `Blog page ${page.currentPage}`;
+const titleBase = `Milestones`;
 const title = titleBase + titleSuffix;
-const description =
-  'Pagination example built with Astro styled with Tailwind CSS.';
+const description = 'milestone gallery';
 ---
 
 <Base head={{ title, description }}>
   <Section>
     <PaginationHeader
-      title='Random title here'
-      description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title='My Journey in Pixels'
+      description='Witness the pivotal moments and achievements that have shaped my online presence.'
     />
   </Section>
 

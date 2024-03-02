@@ -19,7 +19,7 @@ const Milestones = (props: IMilestonesProps) => (
         </div>
 
         <div className="text-sm">
-          <a href="/projects/">View all Milestones →</a>
+          <a href="/milestones/">View all Milestones →</a>
         </div>
       </div>
     }

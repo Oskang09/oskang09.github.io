@@ -1,0 +1,79 @@
+---
+import type {
+  FrontmatterPage,
+  IFrontmatter,
+} from 'astro-boilerplate-components';
+import {
+  BlogGallery,
+  NewerOlderPagination,
+  PaginationHeader,
+  Section,
+} from 'astro-boilerplate-components';
+
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { sortByDate } from '@/utils/Markdown';
+
+import technologies from '@/partials/Technologies/technology';
+
+type GetStaticPaths = {
+  paginate: any;
+}; // Overrides `GetStaticPathsOptions` types from Astro
+
+export async function getStaticPaths({ paginate }: GetStaticPaths) {
+  const allTechnologies = [];
+  technologies.forEach((_, key) => {
+    allTechnologies.push(key);
+  });
+  
+  const allProjects = await Astro.glob<IFrontmatter>('../../posts/projects/*.md');
+  const sortedProjects = sortByDate(allProjects);
+  
+  return allTechnologies.flatMap((technology) => {
+    const techInfo = technologies.get(technology);
+    const filteredProjects = sortedProjects.filter((project) => project.frontmatter.technologies.includes(technology));
+    return paginate(filteredProjects, {
+      params: { technology },
+      pageSize: 6
+    });
+  });
+}
+
+interface Props {
+  page: FrontmatterPage;
+}
+
+const { page } = Astro.props as Props;
+const { technology } = Astro.params;
+const techInfo = technologies.get(technology);
+const titleSuffix = ` | ${AppConfig.site_name}`;
+const titleBase = `Projects`;
+const title = titleBase + titleSuffix;
+const description = `project gallery of ${techInfo.display}`;
+---
+
+<Base head={{ title, description }}>
+  <Section>
+    <img
+      style={{ 
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        width: "20%",
+      }}
+      src={techInfo.image}
+    />
+    <PaginationHeader
+      title={`Project Gallery of the ${techInfo.display}`}
+      description={`Explore diverse projects built with ${techInfo.display} for inspiration and innovation.`}
+    />
+  </Section>
+
+  <Section>
+    <BlogGallery postList={page.data} />
+  </Section>
+
+  <Section>
+    <NewerOlderPagination page={page} />
+  </Section>
+</Base>

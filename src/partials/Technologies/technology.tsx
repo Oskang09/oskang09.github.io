@@ -11,7 +11,7 @@ const technologies: object = {
     display: 'Kotlin',
     image: '/assets/icons/language/kotlin.svg',
   },
-  'c#': {
+  csharp: {
     display: 'C# / .NET',
     image: '/assets/icons/language/csharp.svg',
   },

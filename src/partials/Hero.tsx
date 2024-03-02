@@ -63,6 +63,18 @@ const Hero = () => (
               alt="Instagram"
             />
           </a>
+          <a target="_blank" href="https://steamcommunity.com/id/oskang09/">
+            <HeroSocial src="/assets/images/logo-steam.png" alt="Steam" />
+          </a>
+          <a
+            target="_blank"
+            href="https://discordapp.com/users/140747193664536576"
+          >
+            <HeroSocial src="/assets/images/logo-discord.png" alt="Discord" />
+          </a>
+          <a href="mailto:inquiry@oskadev.com">
+            <HeroSocial src="/assets/images/logo-email.png" alt="Email" />
+          </a>
         </>
       }
     />

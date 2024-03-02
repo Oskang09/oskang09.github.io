@@ -11,7 +11,7 @@ export interface Props {
 }
 
 const {
-  head: { title, description },
+  head: { title, description, image },
 } = Astro.props as Props;
 ---
 
@@ -22,6 +22,11 @@ const {
     <title>{title}</title>
     <meta name='description' content={description} />
     <meta name='author' content={AppConfig.author} />
+    <meta name="keywords" content="Oska, Personal site, Personal website">
+
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={`${Astro.url.origin}${image}`} />
 
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
   </head>

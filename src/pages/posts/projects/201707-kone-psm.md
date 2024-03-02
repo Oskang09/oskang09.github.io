@@ -6,7 +6,7 @@ pubDate: 2017-07-01
 imgSrc: '/assets/projects/psms.png'
 imgAlt: 'image'
 technologies:
-- c#
+- csharp
 - sql
 ---
 

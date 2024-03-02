@@ -19,11 +19,13 @@ type GetStaticPaths = {
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
+  const allPosts = await Astro.glob<IFrontmatter>('../posts/projects/*.md');
   const sortedPosts = sortByDate(allPosts);
 
   // Return a paginated collection of paths for all posts
-  return paginate(sortedPosts, { pageSize: 6 });
+  return paginate(sortedPosts, { 
+    pageSize: 6,
+  });
 }
 
 interface Props {
@@ -32,16 +34,16 @@ interface Props {
 
 const { page } = Astro.props as Props;
 const titleSuffix = ` | ${AppConfig.site_name}`;
-const titleBase = `Projects - Page ${page.currentPage}`;
+const titleBase = `Projects`;
 const title = titleBase + titleSuffix;
-const description = 'Projects list with pagination';
+const description = 'project gallery';
 ---
 
 <Base head={{ title, description }}>
   <Section>
     <PaginationHeader
-      title='Random title here'
-      description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title={`Project Gallery`}
+      description={`Explore diverse projects built with ❤️ for inspiration and innovation.`}
     />
   </Section>
 

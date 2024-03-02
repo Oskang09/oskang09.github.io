@@ -18,7 +18,7 @@ content.technologies.map(x => {
 });
 ---
   
-<Base head={{ title, description: content.description }}>
+<Base head={{ title, description: content.description, image: content.imgSrc }}>
   <BlogPost frontmatter={content}>
     <AppliedTechnologies technologies={appliedTechnologies} />
     <slot></slot>

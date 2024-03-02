@@ -7,7 +7,7 @@ imgSrc: '/assets/projects/crackshot-builder.png'
 imgAlt: 'image'
 featured: true
 technologies:
-- c#
+- csharp
 ---
 
 Crackshot Builder streamlines the plugin creation process, empowering Minecraft server owners and developers to effortlessly design custom weapons, effects, and more, enhancing gameplay and engagement within their Minecraft worlds.

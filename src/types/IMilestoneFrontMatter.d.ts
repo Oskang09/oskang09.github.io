@@ -1,4 +1,4 @@
-export interface IAchievementFrontMatter {
+export interface IMilestoneFrontMatter {
   title: string;
   description: string;
   pubDate: string;

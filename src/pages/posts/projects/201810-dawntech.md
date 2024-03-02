@@ -6,7 +6,7 @@ pubDate: 2018-01-01
 imgSrc: '/assets/projects/dawntech.png'
 imgAlt: 'image'
 technologies:
-- c#
+- csharp
 - sql
 ---
 

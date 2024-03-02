@@ -2,8 +2,9 @@ import type {
   IFrontmatter,
   MarkdownInstance,
 } from 'astro-boilerplate-components';
-import type { IAchievementFrontMatter } from 'src/types/IAchievementFrontMatter';
 import type { IProjectFrontMatter } from 'src/types/IProjectFrontMatter';
+
+import type { IMilestoneFrontMatter } from '@/types/IMilestoneFrontMatter';
 
 export const groupTechnologies = (
   mds: MarkdownInstance<IProjectFrontMatter>[]
@@ -26,7 +27,7 @@ export const groupTechnologies = (
 };
 
 export const featuredMarkdown = (
-  mds: MarkdownInstance<IProjectFrontMatter | IAchievementFrontMatter>[]
+  mds: MarkdownInstance<IProjectFrontMatter | IMilestoneFrontMatter>[]
 ) => {
   return mds.filter((md) => md.frontmatter.featured);
 };

@@ -32,7 +32,7 @@ const Projects = (props: IProjectsProps) => (
           <Project
             name={fm.title}
             description={fm.description}
-            link="/"
+            link={project.url!}
             img={{ src: fm.imgSrc, alt: fm.imgAlt }}
             category={
               <>

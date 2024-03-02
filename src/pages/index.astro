@@ -1,7 +1,7 @@
 ---
 import type { IFrontmatter } from 'astro-boilerplate-components';
 import type { IProjectFrontMatter } from 'src/types/IProjectFrontMatter.d.ts';
-import type { IAchievementFrontMatter } from 'src/types/IAchievementFrontMatter.d.ts';
+import type { IMilestoneFrontMatter } from 'src/types/IMilestoneFrontMatter.d.ts';
 
 import { Hero } from '@/partials/Hero';
 import Base from '@/templates/Base.astro';
@@ -9,14 +9,14 @@ import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate, featuredMarkdown, groupTechnologies } from '@/utils/Markdown';
 
 import { Projects } from '@/partials/Projects';
-const allProjects = await Astro.glob<IProjectFrontMatter>('./projects/*.md');
+const allProjects = await Astro.glob<IProjectFrontMatter>('./posts/projects/*.md');
 const featuredProjects = sortByDate(featuredMarkdown(allProjects));
 
 import { Technologies } from '@/partials/Technologies';
 const technologies = groupTechnologies(allProjects);
 
 import { Milestones } from '@/partials/Milestones';
-const allMilestones = await Astro.glob<IAchievementFrontMatter>('./milestones/*.md');
+const allMilestones = await Astro.glob<IMilestoneFrontMatter>('./posts/milestones/*.md');
 const recentMilestones = sortByDate(allMilestones).slice(0,3);
 
 const { title } = AppConfig;
