@@ -10,54 +10,57 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Oska Ng</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          A passionate{' '}
+          <span className="text-cyan-400 hover:underline">
+            Software Engineer
+          </span>{' '}
+          &{' '}
+          <span className="text-cyan-400 hover:underline">
+            Software Architect
+          </span>
+          . With a deep understanding of modern languages, technology stacks,
+          and frameworks, I am well-versed in Dart, C#, Kotlin/Java, JavaScript,
+          and Go. My enthusiasm for technology extends to various domains,
+          including web, mobile, desktop, backend, and DevOps.
+          <hr className="my-3 h-1 rounded border-0 bg-gray-200 dark:bg-gray-700" />
+          Embedded at{' '}
+          <a
+            target="_blank"
+            className="text-cyan-400 hover:underline"
+            href="https://team.revenuemonster.my/oska"
+          >
+            Payment Software Engineer Lead @ Revenue Monster
+          </a>
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
-          alt="Avatar image"
+          className="mt-8 h-64 w-64 rounded-lg"
+          src="https://directus.superapp.my/assets/d8a83969-b502-43b6-b14d-9cd0b57aaf2d.jpeg"
+          alt="oska image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
+          <a target="_blank" href="https://www.linkedin.com/in/oskang09/">
+            <HeroSocial src="/assets/images/logo-linkedin.png" alt="Linkedin" />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
+          <a target="_blank" href="https://www.facebook.com/oskaszechen/">
+            <HeroSocial src="/assets/images/logo-facebook.png" alt="Facebook" />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
+          <a target="_blank" href="https://twitter.com/oska_ng">
+            <HeroSocial src="/assets/images/logo-twitter.png" alt="Twitter" />
           </a>
-          <a href="/">
+          <a target="_blank" href="https://www.instagram.com/oska_0714/">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src="/assets/images/logo-instagram.png"
+              alt="Instagram"
             />
           </a>
         </>

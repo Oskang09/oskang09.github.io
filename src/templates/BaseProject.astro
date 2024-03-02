@@ -1,0 +1,26 @@
+---
+import type { IFrontmatter } from 'astro-boilerplate-components';
+
+import { AppliedTechnologies } from '@/partials/Technologies';
+import { BlogPost } from '@/partials/BlogPost';
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+
+export interface Props {
+  content: IFrontmatter;
+}
+
+const { content } = Astro.props as Props;
+const title = `${content.title} | ${AppConfig.site_name}`;
+const appliedTechnologies = new Map();
+content.technologies.map(x => {
+  appliedTechnologies.set(x, 0);
+});
+---
+  
+<Base head={{ title, description: content.description }}>
+  <BlogPost frontmatter={content}>
+    <AppliedTechnologies technologies={appliedTechnologies} />
+    <slot></slot>
+  </BlogPost>
+</Base>
