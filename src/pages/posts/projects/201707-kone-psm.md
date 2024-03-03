@@ -4,7 +4,7 @@ title: Phone Shop Management System for KOne
 description: Customize with JSON, manage data with OleDB/SQL, print receipts/invoices, and track repairs with ease.
 pubDate: 2017-07-01
 imgSrc: '/assets/projects/psms.png'
-imgAlt: 'image'
+imgAlt: 'psms'
 technologies:
 - csharp
 - sql

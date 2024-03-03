@@ -4,7 +4,7 @@ title: Eternal Century - Minecraft Game Server Customization
 description: Craft custom Java/Kotlin plugins to tweak Minecraft's core, adding features like enhanced item systems, NPC-driven trade, and automated quests/events based on UTC+8 time.
 pubDate: 2017-12-01
 imgSrc: '/assets/projects/ec.png'
-imgAlt: 'image'
+imgAlt: 'ec'
 featured: true
 technologies:
 - java

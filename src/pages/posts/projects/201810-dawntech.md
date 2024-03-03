@@ -4,7 +4,7 @@ title: Payroll System for DawnTech
 description: Employee details, salary calculation, leave/OT tracking. Integrate with ZKTECO's Excel for automated employee management and hours tracking.
 pubDate: 2018-01-01
 imgSrc: '/assets/projects/dawntech.png'
-imgAlt: 'image'
+imgAlt: 'dawntech'
 technologies:
 - csharp
 - sql

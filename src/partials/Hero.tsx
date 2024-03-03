@@ -27,6 +27,10 @@ const Hero = () => (
           and frameworks, I am well-versed in Dart, C#, Kotlin/Java, JavaScript,
           and Go. My enthusiasm for technology extends to various domains,
           including web, mobile, desktop, backend, and DevOps.
+          <br />
+          <br />
+          (☞ ͡° ͜ʖ ͡°)☞ Website still in construction 🚧 you can come back later!
+          🤗
           <hr className="my-3 h-1 rounded border-0 bg-gray-200 dark:bg-gray-700" />
           Embedded at{' '}
           <a
