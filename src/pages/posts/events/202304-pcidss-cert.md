@@ -1,9 +1,9 @@
 ---
-layout: '@/templates/BaseMilestone.astro'
+layout: '@/templates/BaseEvent.astro'
 title: PCI DSS v3.2.1 Level 1
 description: Proudly navigating PCI DSS acquisition with my app engineer role, ensuring full compliance in every payment aspect. 🥳💪
 pubDate: 2023-04-10
-imgSrc: '/assets/milestones/pcidss-coc-202304.png'
+imgSrc: '/assets/events/pcidss-coc-202304.png'
 imgAlt: 'pcidss-coc-cert'
 ---
 

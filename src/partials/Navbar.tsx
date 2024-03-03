@@ -32,7 +32,7 @@ const Navbar = (props: INavbarProps) => {
           <div></div>
         )}
         <NavMenu>
-          <NavMenuItem href="/milestones/">Milestones</NavMenuItem>
+          <NavMenuItem href="/events/">Events</NavMenuItem>
           <NavMenuItem href="/projects/">Projects</NavMenuItem>
           <NavMenuItem target="_blank" href="/assets/pdf/resume.pdf">
             Resume

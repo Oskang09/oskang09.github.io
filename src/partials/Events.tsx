@@ -6,26 +6,26 @@ import {
   Section,
 } from 'astro-boilerplate-components';
 
-type IMilestonesProps = {
-  milestones: MarkdownInstance<IFrontmatter>[];
+type IEventsProps = {
+  events: MarkdownInstance<IFrontmatter>[];
 };
 
-const Milestones = (props: IMilestonesProps) => (
+const Events = (props: IEventsProps) => (
   <Section
     title={
       <div className="flex items-baseline justify-between">
         <div>
-          Recent <GradientText>Milestones</GradientText>
+          Recent <GradientText>Events</GradientText>
         </div>
 
         <div className="text-sm">
-          <a href="/milestones/">View all Milestones →</a>
+          <a href="/events/">View all Events →</a>
         </div>
       </div>
     }
   >
-    <BlogGallery postList={props.milestones} />
+    <BlogGallery postList={props.events} />
   </Section>
 );
 
-export { Milestones };
+export { Events };

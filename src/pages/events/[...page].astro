@@ -19,7 +19,7 @@ type GetStaticPaths = {
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>('../posts/milestones/*.md');
+  const allPosts = await Astro.glob<IFrontmatter>('../posts/events/*.md');
   const sortedPosts = sortByDate(allPosts);
 
   // Return a paginated collection of paths for all posts
@@ -32,9 +32,9 @@ interface Props {
 
 const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
-const titleBase = `Milestones`;
+const titleBase = `Events`;
 const title = titleBase + titleSuffix;
-const description = 'milestone gallery';
+const description = 'events gallery';
 ---
 
 <Base head={{ title, description }}>
