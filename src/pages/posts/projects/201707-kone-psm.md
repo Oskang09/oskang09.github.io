@@ -7,7 +7,7 @@ imgSrc: '/assets/projects/psms.png'
 imgAlt: 'psms'
 technologies:
 - csharp
-- sql
+- oledb
 ---
 
 The Phone Shop Management System (PSMS) is a comprehensive software solution designed to streamline operations for phone shops, enabling efficient management of inventory, sales, and customer interactions.

@@ -34,7 +34,7 @@ export async function getStaticPaths({ paginate }: GetStaticPaths) {
     const filteredProjects = sortedProjects.filter((project) => project.frontmatter.technologies.includes(technology));
     return paginate(filteredProjects, {
       params: { technology },
-      pageSize: 6
+      pageSize: 9
     });
   });
 }

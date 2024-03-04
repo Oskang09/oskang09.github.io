@@ -5,11 +5,9 @@ description: Craft custom Java/Kotlin plugins to tweak Minecraft's core, adding 
 pubDate: 2017-12-01
 imgSrc: '/assets/projects/ec.png'
 imgAlt: 'ec'
-featured: true
 technologies:
 - java
-- postgres
-- sql
+- mysql
 ---
 
 This involves building plugins in Java/Kotlin to modify Minecraft's default behavior. It includes numerous homemade features such as an item system to enhance both PvE and PvP experiences, a GUI system for buying and selling items from NPCs, and an NPC system supporting various functions like storage, item repairing, titles, auctions, and quests. Additionally, it features simple daily and weekly quests, as well as automatic boss spawning and custom events based on specific times in UTC+8.
@@ -18,7 +16,7 @@ This involves building plugins in Java/Kotlin to modify Minecraft's default beha
 
 ## Key Highlights
 
-1. Using [Hibernate ORM](https://hibernate.org/orm/) and connecting with PostgreSQL.
+1. Using [Hibernate ORM](https://hibernate.org/orm/) and connecting with MySQL.
 2. Apply abstraction class for every entity to provide highly customization which focusing on RPG gameplay elements.
 3. Apply top-level listener to listen all existing damage events and transform to RPG-related events.
 4. Extend the vault system from the original minecraft built-in ( Economy, Chat, Permission ).

@@ -7,7 +7,7 @@ imgSrc: '/assets/projects/dawntech.png'
 imgAlt: 'dawntech'
 technologies:
 - csharp
-- sql
+- oledb
 ---
 
 Implement basic payroll features including employee information, salary calculation (EPF, SOCSO), leave and overtime records. Integrate with ZKTECO's Excel records to automate employee creation and update employee details for tracking working hours.
