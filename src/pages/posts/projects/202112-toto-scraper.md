@@ -13,6 +13,7 @@ TotoScraper is a Go utility designed to scrape toto data from various existing w
 
 > Feel free to send me a private message if you're interested in this personal private project.
 
+
 ## Scrap Target
 
 1. 4dking
@@ -23,7 +24,16 @@ TotoScraper is a Go utility designed to scrape toto data from various existing w
 
 1. Scrap toto data to excel view
 2. Submit toto data to generate Digit/Pair Frequency Report
-3. Digit Frequency - How much the full number appearing at the reports like "2041" if appear twice will show as twice.
-4. Pair Frequency - How much the pair number appearing at the reports like "2020", will be 20 appeared twice.
+3. Digit Frequency - How many times digits frequency count in Matrix view.
+4. Pair Frequency - How many times same digits more than once in Matrix view. 
 
 ![toto-scraper-chart](/assets/projects/toto-scraper-chart.png)
+
+
+## Sample Result
+
+| Info | Image |
+| :--: | :--: |
+| Data | ![toto-scraper-data](/assets/projects/toto-scraper-data.png) |
+| Digit Frequency | ![toto-scraper-dfc](/assets/projects/toto-scraper-dfc.png) |
+| Pair Frequency | ![toto-scraper-pfc](/assets/projects/toto-scraper-pfc.png) | 
