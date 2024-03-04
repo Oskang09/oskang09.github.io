@@ -1,8 +1,8 @@
 ---
 layout: '@/templates/BaseProject.astro'
 title: Gourmet Card - Revenue Monter
-description: The project handles events, including creation, editing, closure, and initiation. Users join events, leave reviews, and manage profiles. It includes a voucher system, Firebase integration for notifications, and an admin portal for data management.
-pubDate: 2019-07-01
+description: The fisrt project and mini program application in Revenue Monster!
+pubDate: 2019-12-01
 imgSrc: '/assets/projects/gourmetcard-info.png'
 imgAlt: 'gourmetcard'
 technologies:
