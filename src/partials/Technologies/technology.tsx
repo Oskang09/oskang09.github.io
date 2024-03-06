@@ -79,6 +79,10 @@ const technologies: object = {
     display: 'Alibaba Cloud',
     image: '/assets/icons/server/alicloud.svg',
   },
+  mongodb: {
+    display: 'MongoDB',
+    image: '/assets/icons/database/mongodb.svg',
+  },
 };
 
 export default new Map(Object.entries(technologies));
