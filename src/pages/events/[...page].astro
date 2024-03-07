@@ -34,10 +34,10 @@ const { page } = Astro.props as Props;
 const titleSuffix = ` - ${AppConfig.site_name}`;
 const titleBase = `Events`;
 const title = titleBase + titleSuffix;
-const description = 'events gallery';
+const description = 'Witness the pivotal moments and achievements that have shaped my online presence.';
 ---
 
-<Base head={{ title, description }}>
+<Base head={{ title, description, image: "/assets/images/event-gallery.png" }}>
   <Section>
     <PaginationHeader
       title='My Journey in Pixels'

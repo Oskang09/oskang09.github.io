@@ -36,10 +36,10 @@ const { page } = Astro.props as Props;
 const titleSuffix = ` | ${AppConfig.site_name}`;
 const titleBase = `Projects`;
 const title = titleBase + titleSuffix;
-const description = 'project gallery';
+const description = 'Explore diverse projects built with ❤️ for inspiration and innovation.';
 ---
 
-<Base head={{ title, description }}>
+<Base head={{ title, description, image: "/assets/images/project-gallery.png" }}>
   <Section>
     <PaginationHeader
       title={`Project Gallery`}

@@ -49,10 +49,10 @@ const techInfo = technologies.get(technology);
 const titleSuffix = ` | ${AppConfig.site_name}`;
 const titleBase = `Projects`;
 const title = titleBase + titleSuffix;
-const description = `project gallery of ${techInfo.display}`;
+const description = `Explore diverse projects built with ${techInfo.display} for inspiration and innovation.`;
 ---
 
-<Base head={{ title, description }}>
+<Base head={{ title, description, image: "/assets/images/project-gallery.png" }}>
   <Section>
     <img
       style={{ 
