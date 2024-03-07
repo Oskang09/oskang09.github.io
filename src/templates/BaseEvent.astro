@@ -12,9 +12,13 @@ export interface Props {
 
 const { content } = Astro.props as Props;
 const title = `${content.title} | ${AppConfig.site_name}`;
+const article = {
+  section: 'Event',
+  publish_date: content.pubDate,
+};
 ---
   
-<Base head={{ title, description: content.description, image: content.imgSrc }}>
+<Base head={{ article, title, description: content.description, image: content.imgSrc }}>
   <BlogPost frontmatter={content}>
     <slot></slot>
   </BlogPost>

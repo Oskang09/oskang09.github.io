@@ -16,9 +16,14 @@ const appliedTechnologies = new Map();
 content.technologies.map(x => {
   appliedTechnologies.set(x, 0);
 });
+
+const article = {
+  section: 'Project',
+  publish_date: content.pubDate,
+};
 ---
   
-<Base head={{ title, description: content.description, image: content.imgSrc }}>
+<Base head={{ article, title, description: content.description, image: content.imgSrc }}>
   <BlogPost frontmatter={content}>
     <AppliedTechnologies technologies={appliedTechnologies} />
     <slot></slot>

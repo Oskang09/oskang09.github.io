@@ -11,7 +11,7 @@ export interface Props {
 }
 
 const {
-  head: { title, description, image },
+  head: { title, description, image, article },
 } = Astro.props as Props;
 ---
 
@@ -27,14 +27,27 @@ const {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={`${Astro.url.origin}${image}`} />
+    <meta property="og:url" content={`${Astro.url.href}`} />
+    {!article && (
+      <>
+        <meta property="og:type" content="profile" />
+        <meta property="profile:username" content="Oska Ng" />
+      </>
+    )}
+    {article && (
+      <>
+        <meta property="og:type" content="article" />
+        <meta property="article:author" content="Oska Ng" />
+        <meta property="article:section" content={article.section} />
+        <meta property="article:published_time" content={article.publish_date} />
+      </>
+    )}
 
     <link rel='icon' type='image/x-icon' href='/favicon.ico' />
   </head>
   <body class='bg-slate-900 text-gray-100'>
     <Navbar url={Astro.url} />
-
     <slot></slot>
-
     <Footer />
   </body>
 </html>
