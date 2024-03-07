@@ -15,22 +15,25 @@ const Hero = () => (
       }
       description={
         <>
-          A passionate{' '}
-          <span className="text-cyan-400 hover:underline">
-            Software Engineer
-          </span>{' '}
+          A passionate <span className="text-cyan-400">Software Engineer</span>{' '}
           &{' '}
-          <span className="text-cyan-400 hover:underline">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/posts/oskang09_softwarearchitecture-architecture-activity-7077308815137779712-5bv0"
+            className="text-cyan-400 hover:underline"
+          >
             Software Architect
-          </span>
+          </a>
           . With a deep understanding of modern languages, technology stacks,
           and frameworks, I am well-versed in Dart, C#, Kotlin/Java, JavaScript,
           and Go. My enthusiasm for technology extends to various domains,
           including web, mobile, desktop, backend, and DevOps.
           <br />
           <br />
-          (☞ ͡° ͜ʖ ͡°)☞ Website still in construction 🚧 you can come back later!
-          🤗
+          <p>
+            (☞ ͡° ͜ʖ ͡°)☞ Interested in grabbing coffee? Connect with me through
+            the following socials!
+          </p>
           <hr className="my-3 h-1 rounded border-0 bg-gray-200 dark:bg-gray-700" />
           Embedded at{' '}
           <a
@@ -38,7 +41,15 @@ const Hero = () => (
             className="text-cyan-400 hover:underline"
             href="https://team.revenuemonster.my/oska"
           >
-            Payment Software Engineer Lead @ Revenue Monster
+            Payment Software Engineer Lead
+          </a>{' '}
+          @{' '}
+          <a
+            target="_blank"
+            className="text-cyan-400 hover:underline"
+            href="https://revenuemonster.my/"
+          >
+            Revenue Monster
           </a>
         </>
       }
