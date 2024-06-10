@@ -6,7 +6,6 @@ pubDate: 2024-06-01
 imgSrc: '/assets/projects/invoicehub/einvoice.png'
 imgAlt: 'logo'
 technologies:
-- go
 - mysql
 - kubernetes
 - csharp
