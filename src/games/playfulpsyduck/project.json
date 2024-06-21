@@ -1,0 +1,12 @@
+{
+  "url": "project.json",
+  "engineVersion": "1.2.0-beta.4",
+  "physics": 0,
+  "xr": 0,
+  "webGLRendererOptions": {
+    "webGLMode": 0,
+    "antialias": true,
+    "alpha": true,
+    "preserveDrawingBuffer": false
+  }
+}

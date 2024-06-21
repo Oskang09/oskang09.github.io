@@ -1,0 +1,225 @@
+{
+  "plugins": [
+    
+  ],
+  "scene": "../../../assets/games/playfulpsyduck/Scene",
+  "engineVersion": "1.2.0-beta.4",
+  "files": [
+    {
+      "id": "0000200",
+      "virtualPath": "/Assets/Internal/Material/DefaultMat",
+      "type": "Material",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Material/DefaultMat"
+    },
+    {
+      "id": "0000201",
+      "virtualPath": "/Assets/Internal/Material/SkyMat",
+      "type": "Material",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Material/SkyMat"
+    },
+    {
+      "id": "0000100",
+      "virtualPath": "/Assets/Internal/Mesh/Cuboid",
+      "type": "Mesh",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Mesh/Cuboid"
+    },
+    {
+      "id": "0000501",
+      "virtualPath": "/Assets/Internal/Shader/PBR",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/PBR"
+    },
+    {
+      "id": "0000502",
+      "virtualPath": "/Assets/Internal/Shader/Unlit",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/Unlit"
+    },
+    {
+      "id": "0000503",
+      "virtualPath": "/Assets/Internal/Shader/SkyProcedural",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/SkyProcedural"
+    },
+    {
+      "id": "0000504",
+      "virtualPath": "/Assets/Internal/Shader/SkyBox",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/SkyBox"
+    },
+    {
+      "id": "0000505",
+      "virtualPath": "/Assets/Internal/Shader/BlinnPhong",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/BlinnPhong"
+    },
+    {
+      "id": "0000506",
+      "virtualPath": "/Assets/Internal/Shader/PbrSpecular",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/PbrSpecular"
+    },
+    {
+      "id": "0000507",
+      "virtualPath": "/Assets/Internal/Shader/Particle",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/Particle"
+    },
+    {
+      "id": "0000508",
+      "virtualPath": "/Assets/Internal/Shader/ErrorShader",
+      "type": "Shader",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Shader/ErrorShader"
+    },
+    {
+      "id": "0000202",
+      "virtualPath": "/Assets/Internal/Material/ParticleMat",
+      "type": "Material",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Material/ParticleMat"
+    },
+    {
+      "id": "0000101",
+      "virtualPath": "/Assets/Internal/Mesh/Sphere",
+      "type": "Mesh",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Mesh/Sphere"
+    },
+    {
+      "id": "0000102",
+      "virtualPath": "/Assets/Internal/Mesh/Plane",
+      "type": "Mesh",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Mesh/Plane"
+    },
+    {
+      "id": "0000103",
+      "virtualPath": "/Assets/Internal/Mesh/Cylinder",
+      "type": "Mesh",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Mesh/Cylinder"
+    },
+    {
+      "id": "0000104",
+      "virtualPath": "/Assets/Internal/Mesh/Capsule",
+      "type": "Mesh",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Mesh/Capsule"
+    },
+    {
+      "id": "0000107",
+      "virtualPath": "/Assets/Internal/Mesh/Cone",
+      "type": "Mesh",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Mesh/Cone"
+    },
+    {
+      "id": "0000109",
+      "virtualPath": "/Material/Background",
+      "type": "Sprite",
+      "path": "../../../assets/games/playfulpsyduck/Material/Background"
+    },
+    {
+      "id": "0000000",
+      "virtualPath": "/Scene",
+      "type": "Scene",
+      "path": "../../../assets/games/playfulpsyduck/Scene"
+    },
+    {
+      "id": "0000301",
+      "virtualPath": "/Assets/Internal/Material/DefaultTexture",
+      "type": "KTX2",
+      "path": "../../../assets/games/playfulpsyduck/Assets/Internal/Material/DefaultTexture"
+    },
+    {
+      "id": "81decf4d-120a-4619-981b-62b6b30402a1",
+      "virtualPath": "/Assets/background.jpg",
+      "type": "KTX2",
+      "path": "../../../assets/games/playfulpsyduck/Assets/background.jpg"
+    },
+    {
+      "id": "5eca5dd5-b4d1-4177-ad64-c740c3a088da",
+      "virtualPath": "/Scripts/Spawner.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/Spawner.ts"
+    },
+    {
+      "id": "03ed8ca7-3f1f-499b-a1de-f3541de61253",
+      "virtualPath": "/Material/Item",
+      "type": "Sprite",
+      "path": "../../../assets/games/playfulpsyduck/Material/Item"
+    },
+    {
+      "id": "a5b426c4-56ad-4751-a4f8-d4b83d6f5141",
+      "virtualPath": "/Scripts/MouseItem.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/MouseItem.ts"
+    },
+    {
+      "id": "83dcfd5c-425e-4c2a-aff9-7a754b91de90",
+      "virtualPath": "/Scripts/KeyboardItem.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/KeyboardItem.ts"
+    },
+    {
+      "id": "7b8b9ace-8ace-409d-af8b-4893f25b4177",
+      "virtualPath": "/Scripts/KeyboardConfig.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/KeyboardConfig.ts"
+    },
+    {
+      "id": "8f2a28dd-4f55-45fa-b22b-a8cf7f89b62c",
+      "virtualPath": "/Scripts/GameManager.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/GameManager.ts"
+    },
+    {
+      "id": "4f71bdfd-3063-4d1d-bdd9-c078f157f53f",
+      "virtualPath": "/Assets/paw.png",
+      "type": "KTX2",
+      "path": "../../../assets/games/playfulpsyduck/Assets/paw.png"
+    },
+    {
+      "id": "7a87d5f3-1147-406b-83bd-ee67b293c62c",
+      "virtualPath": "/Assets/psyduck.png",
+      "type": "KTX2",
+      "path": "../../../assets/games/playfulpsyduck/Assets/psyduck.png"
+    },
+    {
+      "id": "022278df-4872-43cc-a42e-297421f5dc6f",
+      "virtualPath": "/Material/Particle",
+      "type": "Sprite",
+      "path": "../../../assets/games/playfulpsyduck/Material/Particle"
+    },
+    {
+      "id": "3c2c3e20-984f-4642-9552-af965481f2af",
+      "virtualPath": "/Assets/PokemonSolid",
+      "type": "Font",
+      "path": "../../../assets/games/playfulpsyduck/Assets/PokemonSolid"
+    },
+    {
+      "id": "a44db114-0233-4a2f-a7d0-33cd8c3c7dae",
+      "virtualPath": "/Scripts/ModeButton.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/ModeButton.ts"
+    },
+    {
+      "id": "20a50115-2c68-456d-92fc-64d106dfa781",
+      "virtualPath": "/Scripts/StartButton.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/StartButton.ts"
+    },
+    {
+      "id": "7e00a2ed-5158-4731-984f-1f75197557e7",
+      "virtualPath": "/Material/Board",
+      "type": "Sprite",
+      "path": "../../../assets/games/playfulpsyduck/Material/Board"
+    },
+    {
+      "id": "b94a9779-6176-43bd-90fa-483cb7472e6a",
+      "virtualPath": "/Assets/instruction-board.png",
+      "type": "KTX2",
+      "path": "../../../assets/games/playfulpsyduck/Assets/instruction-board.png"
+    },
+    {
+      "id": "27dc20c2-68e7-4803-9884-9d5a1244f8ce",
+      "virtualPath": "/Scripts/InstructionQuitButton.ts",
+      "type": "script",
+      "path": "../../../assets/games/playfulpsyduck/Scripts/InstructionQuitButton.ts"
+    }
+  ]
+}

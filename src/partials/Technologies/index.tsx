@@ -8,11 +8,11 @@ type ITechnologiesProps = {
 
 const Technologies = (props: ITechnologiesProps) => {
   const cards: JSX.Element[] = [];
-  if (props.technologies.size === 0) {
+  if (props?.technologies.size === 0) {
     return null;
   }
 
-  props.technologies.forEach((value, key) => {
+  props?.technologies.forEach((value, key) => {
     const techInfo = technologies.get(key);
     if (!techInfo) {
       return;

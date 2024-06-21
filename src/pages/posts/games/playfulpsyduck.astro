@@ -1,0 +1,35 @@
+---
+import Base from '@/templates/Base.astro';
+import { Hero } from '@/partials/Hero';
+import Game from '@/games';
+import {
+  Section,
+} from 'astro-boilerplate-components';
+
+export const layout = "@/templates/BaseEvent.astro";
+export const title = "Playful Psyduck @ Galacean"
+export const description = "Playful Psyduck: Top-Down Fun with Clicks and Keys!";
+export const pubDate = "2024-06-22";
+export const imgSrc = "/assets/games/playfulpsyduck/display.png";
+export const imgAlt = "playfulpsyduck";
+---
+
+<Base head={{ title, description, image: "/assets/images/oskadev.png" }}>
+  <Game type="playfulpsyduck" client:load></Game>
+  <Section>
+    <div>Just to playing around with Galacean, also the first game with Galacean!</div>
+    <div style="margin-top: 15px; margin-bottom: 10px;">Instruction</div>
+    <ol>
+      <li>1. Mouse - Click the paw don't let it go!</li>
+      <li>2. Keyboard - Smash your keyboard with the falling alphabets and numbers! No 'O', 'Q' and '0'.</li>
+    <ol>
+    <div style="margin-top: 20px; margin-bottom: 10px;">Reference</div>
+    <ol>
+      <li>1. <a href="https://galacean.antgroup.com/">Galacean (1.2.0-beta.4)</a> - Mobile-first Web Game Engine</li>
+      <li>2. Resources - Just searching around from Google.</li>
+    <ol>
+    <div style="margin-top: 25px;">
+      <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">Do you know a rumors that's duck can help debugging? Quack!</a>
+    </div>
+  </Section>
+</Base>
