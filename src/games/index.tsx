@@ -1,14 +1,24 @@
+import type { WebGLEngine } from '@galacean/engine';
 import { useEffect } from 'react';
+
+import { init as playfulpsyduck } from './playfulpsyduck';
 
 type IGameProps = {
   type: string;
 };
+
+const games: {
+  [key in string]: (canvas: HTMLCanvasElement) => Promise<WebGLEngine>;
+} = {
+  playfulpsyduck,
+};
+
 const Game = (props: IGameProps) => {
   useEffect(() => {
     // eslint-disable-next-line func-names
     (async function () {
-      const { init } = await import(`${props.type}`);
-      init(document.getElementById('game'));
+      const init = games[props.type]!!;
+      init(document.getElementById('game') as HTMLCanvasElement);
     })();
   }, []);
 
