@@ -7,7 +7,7 @@ const Game = (props: IGameProps) => {
   useEffect(() => {
     // eslint-disable-next-line func-names
     (async function () {
-      const { init } = await import(`./${props.type}`);
+      const { init } = await import(`${props.type}`);
       init(document.getElementById('game'));
     })();
   }, []);
