@@ -9,10 +9,11 @@ import {
 } from '@galacean/engine';
 import { LitePhysics } from '@galacean/engine-physics-lite';
 import { ShaderLab } from '@galacean/engine-shader-lab';
-import { GSLPBRMaterial } from '@galacean/engine-toolkit';
 
 import projectInfo from './project.json';
 import { registerShaders } from './shaders';
+
+const { GSLPBRMaterial } = pkg;
 
 const isIOS =
   SystemInfo.platform === Platform.IPhone ||
