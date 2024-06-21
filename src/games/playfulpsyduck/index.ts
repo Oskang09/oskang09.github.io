@@ -3,17 +3,19 @@ import './scripts';
 import {
   AssetType,
   Logger,
+  Logger,
   Platform,
   SystemInfo,
   WebGLEngine,
 } from '@galacean/engine';
 import { LitePhysics } from '@galacean/engine-physics-lite';
 import { ShaderLab } from '@galacean/engine-shader-lab';
+import toolkit from '@galacean/engine-toolkit';
 
 import projectInfo from './project.json';
 import { registerShaders } from './shaders';
 
-const { GSLPBRMaterial } = pkg;
+const { GSLPBRMaterial } = toolkit;
 
 const isIOS =
   SystemInfo.platform === Platform.IPhone ||
