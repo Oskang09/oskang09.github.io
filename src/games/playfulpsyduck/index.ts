@@ -3,7 +3,6 @@ import './scripts';
 import {
   AssetType,
   Logger,
-  Logger,
   Platform,
   SystemInfo,
   WebGLEngine,
@@ -32,14 +31,15 @@ export async function init(canvas: HTMLCanvasElement) {
 
   // @ts-ignore
   config.shaderLab = new ShaderLab();
-  Logger.enable();
   GSLPBRMaterial.registerIncludes();
+  registerShaders();
+
+  if (import.meta.env.DEV) {
+    Logger.enable();
+  }
 
   // @ts-ignore
   const engine = await WebGLEngine.create(config);
-
-  registerShaders();
-
   await engine.resourceManager
     .load({
       url: `../../../assets/games/playfulpsyduck/${projectInfo.url}`,
@@ -51,5 +51,6 @@ export async function init(canvas: HTMLCanvasElement) {
     });
 
   engine.run();
+
   return engine;
 }

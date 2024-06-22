@@ -13,12 +13,18 @@ export default class extends Script {
   _dashboardRenderer: TextRenderer = null;
   _modeRenderer: TextRenderer = null;
   _mode: number = 0
+  _backgroundAudio: Audio = null;
 
   // lifecycle
   onAwake() {
     this._gameEntity = this.scene.findEntityByPath("Game");
     this._dashboardRenderer = this.scene.findEntityByPath("Manager/Dashboard").getComponent(TextRenderer);
     this._modeRenderer = this.scene.findEntityByPath("Manager/ModeButton").getComponent(TextRenderer);
+    this._backgroundAudio = new Audio(
+      '/assets/games/playfulpsyduck/Assets/background-silly-psyduck.webm'
+    );
+    this._backgroundAudio.loop = true;
+    this._backgroundAudio.volume = 0.03;
   }
 
   onModeChange() {
@@ -41,6 +47,9 @@ export default class extends Script {
   }
 
   onStartClick() {
+    this._backgroundAudio.currentTime = 0;
+    this._backgroundAudio.play();
+
     this.entity.isActive = false;
     const script = this._gameEntity.getComponent<SpawnerScript>(SpawnerScript);
     script.setConfig({ mode: this._mode });
@@ -49,6 +58,7 @@ export default class extends Script {
 
   // handler
   onEndGameWithResult(result: Result) {
+    this._backgroundAudio.pause();
     this._gameEntity.getComponent(SpawnerScript).enabled = false;
     this.entity.isActive = true;
 
