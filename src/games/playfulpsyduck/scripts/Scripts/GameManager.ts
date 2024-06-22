@@ -47,7 +47,7 @@ export default class extends Script {
   }
 
   onStartClick() {
-    this._backgroundAudio.currentTime = 0;
+    this._backgroundAudio.load();
     this._backgroundAudio.play();
 
     this.entity.isActive = false;
