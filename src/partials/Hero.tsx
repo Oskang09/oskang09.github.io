@@ -39,17 +39,17 @@ const Hero = () => (
           <a
             target="_blank"
             className="text-cyan-400 hover:underline"
-            href="https://team.revenuemonster.my/oska"
+            href="https://github.com/Oskang09"
           >
-            Payment Software Engineer Lead
+            Engineer Lead ( Payment )
           </a>{' '}
           @{' '}
           <a
             target="_blank"
             className="text-cyan-400 hover:underline"
-            href="https://revenuemonster.my/"
+            href="https://feedme.ai/"
           >
-            Revenue Monster
+            FeedMe
           </a>
         </>
       }
