@@ -21,5 +21,5 @@ This encryption and decryption method isn't standard; rather, it's a personal pr
 
 ## References 
 
-1. <a href="hhttps://github.com/Oskang09/securfile" target="_blank">Github</a>
+1. <a href="https://github.com/Oskang09/securfile" target="_blank">Github</a>
 2. <a href="https://securfile.oskadev.com/" target="_blank">Browser Tool</a>
