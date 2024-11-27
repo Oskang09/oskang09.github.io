@@ -23,11 +23,14 @@ const Hero = () => (
             className="text-cyan-400 hover:underline"
           >
             Software Architect
-          </a>
-          . With a deep understanding of modern languages, technology stacks,
-          and frameworks, I am well-versed in Dart, C#, Kotlin/Java, JavaScript,
-          and Go. My enthusiasm for technology extends to various domains,
-          including web, mobile, desktop, backend, and DevOps.
+          </a>{' '}
+          with expertise in modern languages, technology stacks, and frameworks
+          across web, mobile, desktop, backend, and DevOps. I have extensive
+          experience in the payment industry, integrating over 15 payment
+          methods and architecting secure, scalable solutions. I also have
+          experience with PCI DSS, ensuring compliance with security standards.
+          I focus on improving developer productivity by designing efficient
+          toolchains and systems, delivering optimized and scalable solutions.
           <br />
           <br />
           <p>
