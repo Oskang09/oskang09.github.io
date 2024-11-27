@@ -59,7 +59,7 @@ const Hero = () => (
       avatar={
         <img
           className="mt-8 h-64 w-64 rounded-lg"
-          src="https://directus.superapp.my/assets/d8a83969-b502-43b6-b14d-9cd0b57aaf2d.jpeg"
+          src="/assets/images/me.jpeg"
           alt="oska image"
           loading="lazy"
         />
