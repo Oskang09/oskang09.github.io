@@ -1,0 +1,34 @@
+---
+
+import { useEffect } from 'react';
+
+import {
+  PaginationHeader,
+  Section,
+} from 'astro-boilerplate-components';
+
+import Base from '@/templates/Base.astro';
+import { AppConfig } from '@/utils/AppConfig';
+import { sortByDate } from '@/utils/Markdown';
+
+import Leaflet from './leaflet.tsx';
+
+const { page } = Astro.props as Props;
+const titleSuffix = ` | ${AppConfig.site_name}`;
+const titleBase = `Journey`;
+const title = titleBase + titleSuffix;
+const description = 'Explore diverse projects built with ❤️ for inspiration and innovation.';
+---
+
+<Base head={{ title, description, image: "/assets/images/project-gallery.png" }}>
+  <Section>
+    <PaginationHeader
+      title={`Our Journey`}
+      description={`Explore world built with ❤️ for inspiration and innovation.`}
+    />
+  </Section>
+
+  <Section>
+    <Leaflet client:only />
+  </Section>
+</Base>

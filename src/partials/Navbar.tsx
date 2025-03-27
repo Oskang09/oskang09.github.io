@@ -32,6 +32,7 @@ const Navbar = (props: INavbarProps) => {
           <div></div>
         )}
         <NavMenu>
+          <NavMenuItem href="/journey/">Journey</NavMenuItem>
           <NavMenuItem href="/games/">Games</NavMenuItem>
           <NavMenuItem href="/events/">Events</NavMenuItem>
           <NavMenuItem href="/projects/">Projects</NavMenuItem>
