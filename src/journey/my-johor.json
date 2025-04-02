@@ -4,5 +4,53 @@
     "lat": 1.5141398,
     "lng": 103.6325126,
     "images": ["johor/kfc.jpg"]
+  },
+  {
+    "date": "2017-06-10",
+    "lat": 1.5171472,
+    "lng": 103.6602696,
+    "images": ["johor/sutera-square-1.jpg", "johor/sutera-square-2.jpg"]
+  },
+  {
+    "date": "2018-06-26",
+    "lat": 1.4948348,
+    "lng": 103.8237288,
+    "images": ["johor/sunflower-1.jpg", "johor/sunflower-2.jpg"]
+  },
+  {
+    "date": "2017-11-05",
+    "lat": 1.5259738,
+    "lng": 103.6203051,
+    "images": ["johor/random-1.jpg"]
+  },
+  {
+    "date": "2018-07-14",
+    "lat": 1.5430067,
+    "lng": 103.8019115,
+    "images": ["johor/ai-hong-pei-1.jpg", "johor/ai-hong-pei-2.jpg"]
+  },
+  {
+    "date": "2019-10-22",
+    "lat": 1.5880985,
+    "lng": 103.7611354,
+    "images": ["johor/eco-spring-1.jpg", "johor/eco-spring-2.jpg"]
+  },
+  {
+    "date": "2020-02-02",
+    "lat": 1.5164228,
+    "lng": 103.8219307,
+    "images": ["johor/new-year-2020.jpg"]
+  },
+  {
+    "date": "2021-05-04",
+    "lat": 1.562318,
+    "lng": 103.7767413,
+    "images": ["johor/m5-cafe-1.jpg", "johor/m5-cafe-2.jpg"]
+  },
+  {
+    "date": "2022-03-23",
+    "lat": 1.5643632,
+    "lng": 103.5821724,
+    "images": ["johor/home-1.webp", "johor/home-2.webp"]
   }
 ]

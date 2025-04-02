@@ -4,5 +4,89 @@
     "lat": 2.2352564,
     "lng": 102.2208361,
     "images": ["melaka/husky-story-1.jpg", "melaka/husky-story-2.jpg"]
+  },
+  {
+    "date": "2017-07-15",
+    "lat": 2.2027333,
+    "lng": 102.2084352,
+    "images": ["melaka/sky-tower-1.jpg", "melaka/sky-tower-2.jpg"]
+  },
+  {
+    "date": "2017-10-26",
+    "lat": 2.249148,
+    "lng": 102.27829,
+    "images": ["melaka/diploma-semester-1.jpg"]
+  },
+  {
+    "date": "2017-11-26",
+    "lat": 2.1953017,
+    "lng": 102.247959,
+    "images": ["melaka/melaka-musuem-1.jpg", "melaka/melaka-musuem-2.jpg"]
+  },
+  {
+    "date": "2017-12-25",
+    "lat": 2.1953017,
+    "lng": 102.247959,
+    "images": ["melaka/aeon-mall-1.jpg", "melaka/aeon-mall-2.jpg"]
+  },
+  {
+    "date": "2018-01-23",
+    "lat": 2.2491317,
+    "lng": 102.2731458,
+    "images": ["melaka/random-1.jpg", "melaka/random-2.jpg"]
+  },
+  {
+    "date": "2018-02-14",
+    "lat": 2.3619119,
+    "lng": 102.4098695,
+    "images": ["melaka/coffe-bear-bar-1.jpg", "melaka/coffe-bear-bar-2.jpg"]
+  },
+  {
+    "date": "2018-05-05",
+    "lat": 2.2535683,
+    "lng": 102.199072,
+    "images": ["melaka/hb-2018.jpg"]
+  },
+  {
+    "date": "2019-10-16",
+    "lat": 2.1872324,
+    "lng": 102.2201205,
+    "images": ["melaka/encore-1.jpg"]
+  },
+  {
+    "date": "2022-03-14",
+    "lat": 2.9277715,
+    "lng": 101.6419004,
+    "images": ["melaka/convo-1.jpg"]
+  },
+  {
+    "date": "2017-07-24",
+    "lat": 2.2474246,
+    "lng": 102.1354905,
+    "images": ["melaka/puteri-beach-1.jpg", "melaka/puteri-beach-2.jpg"]
+  },
+  {
+    "date": "2018-08-28",
+    "lat": 2.2302651,
+    "lng": 102.1489263,
+    "images": ["melaka/pantai-puteri.jpg"]
+  },
+  {
+    "date": "2017-08-03",
+    "lat": 2.2575939,
+    "lng": 102.2312227,
+    "images": ["melaka/mori-cafe-1.jpg"]
+  },
+  {
+    "date": "2018-06-21",
+    "lat": 2.1909232,
+    "lng": 102.2420324,
+    "images": ["melaka/taming-tower.jpg"]
+  },
+  {
+    "date": "2018-06-25",
+    "lat": 2.2388285,
+    "lng": 102.2302804,
+    "images": ["melaka/sushi-mentai.jpg"]
   }
 ]
