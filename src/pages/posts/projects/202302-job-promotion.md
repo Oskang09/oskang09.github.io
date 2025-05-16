@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Payment Software Engineer Lead @ Revenue Monster
 description: Promoted to Payment Software Engineer Lead after the 1 year efforts!
 pubDate: 2023-02-01
-imgSrc: '/assets/events/promotion-2023.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/promotion-2023.png'
 imgAlt: 'promotion'
 technologies:
 - go

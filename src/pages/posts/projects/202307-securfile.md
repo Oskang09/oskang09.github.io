@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Securfile
 description: Encrypt your file and decrypt in your application in ease!
 pubDate: 2023-03-01
-imgSrc: '/assets/projects/securfile.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/securfile.png'
 imgAlt: 'securfile'
 technologies:
 - go

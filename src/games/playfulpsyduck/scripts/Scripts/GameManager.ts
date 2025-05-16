@@ -1,27 +1,36 @@
-import { Script, Pointer, Entity, TextRenderer } from '@galacean/engine';
-import SpawnerScript from "../Scripts/Spawner";
+import type { Entity } from '@galacean/engine';
+import { Script, TextRenderer } from '@galacean/engine';
+
+import SpawnerScript from './Spawner';
 
 type Result = {
-  destroyedCount: number
-  seconds: number
+  destroyedCount: number;
+  seconds: number;
 };
 
 export default class extends Script {
-
   // private
   _gameEntity: Entity = null;
+
   _dashboardRenderer: TextRenderer = null;
+
   _modeRenderer: TextRenderer = null;
-  _mode: number = 0
+
+  _mode: number = 0;
+
   _backgroundAudio: Audio = null;
 
   // lifecycle
   onAwake() {
-    this._gameEntity = this.scene.findEntityByPath("Game");
-    this._dashboardRenderer = this.scene.findEntityByPath("Manager/Dashboard").getComponent(TextRenderer);
-    this._modeRenderer = this.scene.findEntityByPath("Manager/ModeButton").getComponent(TextRenderer);
+    this._gameEntity = this.scene.findEntityByPath('Game');
+    this._dashboardRenderer = this.scene
+      .findEntityByPath('Manager/Dashboard')
+      .getComponent(TextRenderer);
+    this._modeRenderer = this.scene
+      .findEntityByPath('Manager/ModeButton')
+      .getComponent(TextRenderer);
     this._backgroundAudio = new Audio(
-      '/assets/games/playfulpsyduck/Assets/background-silly-psyduck.webm'
+      'https://cdn.oskadev.com/assets/games/playfulpsyduck/Assets/background-silly-psyduck.webm'
     );
     this._backgroundAudio.loop = true;
     this._backgroundAudio.volume = 0.03;
@@ -35,13 +44,13 @@ export default class extends Script {
 
     switch (true) {
       case this._mode === 0:
-        this._modeRenderer.text = "Mode: Mouse & Keyboard";
+        this._modeRenderer.text = 'Mode: Mouse & Keyboard';
         break;
       case this._mode === 1:
-        this._modeRenderer.text = "Mode: Mouse Only";
+        this._modeRenderer.text = 'Mode: Mouse Only';
         break;
       case this._mode === 2:
-        this._modeRenderer.text = "Mode: Keyboard Only";
+        this._modeRenderer.text = 'Mode: Keyboard Only';
         break;
     }
   }
@@ -62,6 +71,6 @@ export default class extends Script {
     this._gameEntity.getComponent(SpawnerScript).enabled = false;
     this.entity.isActive = true;
 
-    this._dashboardRenderer.text = `Result: \nDestroyed ${result.destroyedCount} in ${result.seconds}s`
+    this._dashboardRenderer.text = `Result: \nDestroyed ${result.destroyedCount} in ${result.seconds}s`;
   }
 }

@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Working @ Revenue Monster!
 description: End of education and start my first job at Revenue Monster as FullStack Developer!
 pubDate: 2019-11-04
-imgSrc: '/assets/events/mmu.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/mmu.png'
 imgAlt: 'mmu'
 ---
 

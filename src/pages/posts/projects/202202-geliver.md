@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Geliver & VSCode Extension - Geliver UI
 description: Geliver UI support for vscode editor, natively support with .proto files.
 pubDate: 2022-02-01
-imgSrc: '/assets/projects/geliver.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/geliver.png'
 imgAlt: 'geliver'
 technologies:
 - typescript

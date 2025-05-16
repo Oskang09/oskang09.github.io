@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Discord Toolbox
 description: A discord toolbox bot 🤖 with basic functionality!
 pubDate: 2023-03-01
-imgSrc: '/assets/projects/discord-toolbox.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/discord-toolbox.png'
 imgAlt: 'discord-toolbox'
 technologies:
 - go

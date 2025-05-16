@@ -21,7 +21,7 @@ const Navbar = (props: INavbarProps) => {
               icon={
                 <img
                   className="mr-2 h-8 w-8"
-                  src="/assets/images/avatar.svg"
+                  src="https://cdn.oskadev.com/assets/images/avatar.svg"
                   alt="avatar image"
                   loading="lazy"
                 />
@@ -36,7 +36,10 @@ const Navbar = (props: INavbarProps) => {
           <NavMenuItem href="/games/">Games</NavMenuItem>
           <NavMenuItem href="/events/">Events</NavMenuItem>
           <NavMenuItem href="/projects/">Projects</NavMenuItem>
-          <NavMenuItem target="_blank" href="/assets/pdf/resume.pdf">
+          <NavMenuItem
+            target="_blank"
+            href="https://cdn.oskadev.com/assets/pdf/resume.pdf"
+          >
             Resume
           </NavMenuItem>
         </NavMenu>

@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: OskaDev - Personal Site
 description: A personal website dedicated to documenting my journey and accomplishments.
 pubDate: 2024-03-08
-imgSrc: '/assets/projects/oskadev.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/oskadev.png'
 imgAlt: 'oskadev'
 technologies:
 - react

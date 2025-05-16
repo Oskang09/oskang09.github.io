@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Sunmi BIoT Connect - Singapore
 description: Together to the Future, SaaS + Payment
 pubDate: 2024-10-01
-imgSrc: '/assets/events/sunmibiot2024/1.jpeg'
+imgSrc: 'https://cdn.oskadev.com/assets/events/sunmibiot2024/1.jpeg'
 imgAlt: 'job'
 ---
 

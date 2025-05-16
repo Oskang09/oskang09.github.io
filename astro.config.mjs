@@ -24,4 +24,7 @@ export default defineConfig({
     robotsTxt(),
     astroImageTools,
   ],
+  build: {
+    assetsPrefix: 'https://cdn.oskadev.com',
+  },
 });

@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: OskaYuzy - Personal Couple Site
 description: Just a personal couple site to document our journey together.
 pubDate: 2021-10-17
-imgSrc: '/assets/projects/oskayuzy.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/oskayuzy.png'
 imgAlt: 'oskayuzy'
 technologies:
 - react

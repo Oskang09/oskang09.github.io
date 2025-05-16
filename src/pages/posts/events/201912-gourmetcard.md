@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Gourmet Card - Revenue Monter
 description: The first project and mini program application in Revenue Monster!
 pubDate: 2019-12-01
-imgSrc: '/assets/events/gourmetcard-info.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/gourmetcard-info.png'
 imgAlt: 'gourmetcard'
 ---
 

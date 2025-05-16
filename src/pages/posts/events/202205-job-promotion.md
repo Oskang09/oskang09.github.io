@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Team Lead Software Engineer @ Revenue Monster
 description: Promoted to Team Lead Software Engineer after the 1 year efforts!
 pubDate: 2022-05-01
-imgSrc: '/assets/events/promotion-2022.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/promotion-2022.png'
 imgAlt: 'promotion'
 ---
 

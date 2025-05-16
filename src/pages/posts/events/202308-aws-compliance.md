@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: AWS - Embracing evolving cloud compliance
 description: encapsulates the proactive approach of adapting and integrating the latest standards and regulations into cloud-based operations.
 pubDate: 2023-08-01
-imgSrc: '/assets/events/awscompliance/1.jpeg'
+imgSrc: 'https://cdn.oskadev.com/assets/events/awscompliance/1.jpeg'
 imgAlt: 'aws-compliance-event'
 ---
 
@@ -20,8 +20,8 @@ We immersed ourself in the Bank's extensive enterprise risk framework, gaining i
 <table>
   <tbody>
     <tr>
-      <td align="center"><img alt="appendix-10" src="/assets/events/awscompliance/4.jpeg" />
-      <td align="center"><img alt="risk-framework" src="/assets/events/awscompliance/5.jpeg" />
+      <td align="center"><img alt="appendix-10" src="https://cdn.oskadev.com/assets/events/awscompliance/4.jpeg" />
+      <td align="center"><img alt="risk-framework" src="https://cdn.oskadev.com/assets/events/awscompliance/5.jpeg" />
     </tr>
   </tbody>
 </table>

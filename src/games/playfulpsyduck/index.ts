@@ -42,7 +42,7 @@ export async function init(canvas: HTMLCanvasElement) {
   const engine = await WebGLEngine.create(config);
   await engine.resourceManager
     .load({
-      url: `../../../assets/games/playfulpsyduck/${projectInfo.url}`,
+      url: `https://cdn.oskadev.com/assets/games/playfulpsyduck/${projectInfo.url}`,
       type: AssetType.Project,
     })
     // @ts-ignore

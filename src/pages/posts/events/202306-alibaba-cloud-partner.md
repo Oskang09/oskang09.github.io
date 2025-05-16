@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Alibaba Cloud Innovation Partner Award
 description: Proud to be awarded as the Most Innovative Partner together with the teams!
 pubDate: 2023-06-01
-imgSrc: '/assets/events/alibabacloud-innovative-partner-award.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/alibabacloud-innovative-partner-award.png'
 imgAlt: 'alibabacloud-innovative-partner-award'
 ---
 

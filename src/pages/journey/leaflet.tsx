@@ -68,7 +68,9 @@ const Leaflet = () => {
       const customIcon = L.divIcon({
         html: generateSwiperHTML(
           journey.date,
-          journey.images.map((x: string) => `/assets/journey/${x}`)
+          journey.images.map(
+            (x: string) => `https://cdn.oskadev.com/assets/journey/${x}`
+          )
         ),
         iconSize: [32, 32],
         iconAnchor: [16, 32],
@@ -122,7 +124,7 @@ const Leaflet = () => {
             {selectedJourney.images.map((x) => (
               <swiper-slide>
                 <img
-                  src={`/assets/journey/${x}`}
+                  src={`https://cdn.oskadev.com/assets/journey/${x}`}
                   style={{
                     objectFit: 'contain',
                     width: '100%',

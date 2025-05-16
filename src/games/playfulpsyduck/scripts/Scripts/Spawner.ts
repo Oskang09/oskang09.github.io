@@ -45,7 +45,7 @@ export default class extends Script {
     // lifecycle
     onEnable() {
       this._inputManager = this.engine.inputManager;
-      this._soundAudio = new Audio("/assets/games/playfulpsyduck/Assets/psyduck.webm");
+      this._soundAudio = new Audio("https://cdn.oskadev.com/assets/games/playfulpsyduck/Assets/psyduck.webm");
       this._soundAudio.volume = 0.08;
 
       this._gameManager = this.scene.findEntityByPath("Manager").getComponent(GameManager);

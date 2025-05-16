@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: VSCode Extension - AutoColor
 description: Convert color code to proper syntax based on different languages.
 pubDate: 2020-01-01
-imgSrc: '/assets/projects/autocolor.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/autocolor.png'
 imgAlt: 'autocolor'
 technologies:
 - typescript

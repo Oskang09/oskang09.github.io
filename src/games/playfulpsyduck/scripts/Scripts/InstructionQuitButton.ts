@@ -5,7 +5,7 @@ import { Script } from '@galacean/engine';
  */
 export default class extends Script {
   onPointerClick(_: Pointer) {
-    const audio = new Audio('/assets/games/playfulpsyduck/Assets/psyduck.webm');
+    const audio = new Audio('https://cdn.oskadev.com/assets/games/playfulpsyduck/Assets/psyduck.webm');
     audio.volume = 0.08;
     audio.play();
 

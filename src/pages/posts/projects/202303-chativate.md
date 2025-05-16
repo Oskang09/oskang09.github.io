@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Chativate
 description: A modern omni channel chat messaging platform 
 pubDate: 2023-03-01
-imgSrc: '/assets/projects/chativate/logo.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/chativate/logo.png'
 imgAlt: 'logo'
 technologies:
 - go

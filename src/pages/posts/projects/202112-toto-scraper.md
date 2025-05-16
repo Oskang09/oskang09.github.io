@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: TotoScraper 
 description: A dynamic and powerful scraper for scraping all toto data from list of websites.
 pubDate: 2021-12-01
-imgSrc: '/assets/projects/toto-scraper.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/toto-scraper.png'
 imgAlt: 'toto-scraper'
 technologies:
 - go

@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Universal GUI - Minecraft Plugins
 description: Customize your shop requirement, reward and display with modular support.
 pubDate: 2021-06-01
-imgSrc: '/assets/projects/universal-gui.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/universal-gui.png'
 imgAlt: 'universal-gui'
 technologies:
 - java

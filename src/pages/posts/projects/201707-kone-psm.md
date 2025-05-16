@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Phone Shop Management System for KOne
 description: Customize with JSON, manage data with OleDB/SQL, print receipts/invoices, and track repairs with ease.
 pubDate: 2017-07-01
-imgSrc: '/assets/projects/psms.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/psms.png'
 imgAlt: 'psms'
 technologies:
 - csharp

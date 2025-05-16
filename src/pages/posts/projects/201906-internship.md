@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Internship - Hermo Creative (M) Sdn Bhd
 description: Internship duration from March 2019 to June 2019
 pubDate: 2019-06-01
-imgSrc: '/assets/events/hermo-farewell.jpg'
+imgSrc: 'https://cdn.oskadev.com/assets/events/hermo-farewell.jpg'
 imgAlt: 'hermo-farewell'
 technologies:
 - nodejs

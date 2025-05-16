@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: PCI DSS v4.0 Level 1
 description: Proudly navigating PCI DSS acquisition with my app engineer role, ensuring full compliance in every payment aspect. 🥳💪
 pubDate: 2024-04-10
-imgSrc: '/assets/events/pcidss-coc-202404.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/pcidss-coc-202404.png'
 imgAlt: 'pcidss-coc-cert'
 ---
 

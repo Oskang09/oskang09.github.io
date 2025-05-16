@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Crackshot Builder - A Minecraft Plugin Editor
 description: Crackshot Builder simplifies plugin creation for Minecraft, enabling custom weapon and effect design to enhance gameplay.
 pubDate: 2017-01-01
-imgSrc: '/assets/projects/crackshot-builder.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/crackshot-builder.png'
 imgAlt: 'csbuilder'
 featured: true
 technologies:

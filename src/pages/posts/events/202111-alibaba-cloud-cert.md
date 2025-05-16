@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Alibaba Cloud Associate Cloud Computing
 description: Alibaba Cloud ACA Certified! Ready to elevate cloud solutions and propel career growth.
 pubDate: 2021-11-01
-imgSrc: '/assets/events/alibabacloud-aca-cert.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/alibabacloud-aca-cert.png'
 imgAlt: 'alibaba-cloud-cert'
 ---
 

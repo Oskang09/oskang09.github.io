@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Senior Software Engineer @ Revenue Monster
 description: Promoted to Senior Software Engineer after the efforts of 1 year 6 months!
 pubDate: 2021-04-01
-imgSrc: '/assets/events/promotion-2021.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/promotion-2021.png'
 imgAlt: 'promotion'
 technologies:
 - go

@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Engineering Lead (Payment) @ FeedMe
 description: Career move to Engineering Lead (Payment)
 pubDate: 2024-09-01
-imgSrc: '/assets/events/career-move-2024.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/career-move-2024.png'
 imgAlt: 'job'
 ---
 

@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: InvoiceHub - LHDN eInvoice
 description: A central hub for eInvoice processing available with just a single API call.
 pubDate: 2024-06-01
-imgSrc: '/assets/projects/invoicehub/einvoice.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/invoicehub/einvoice.png'
 imgAlt: 'logo'
 technologies:
 - mysql
@@ -28,7 +28,7 @@ As of 2024/06/11: This product is still closed source.
 
 ## SwaggerDoc
 
-![discord-toolbox-music](/assets/projects/invoicehub/swagger.png)
+![discord-toolbox-music](https://cdn.oskadev.com/assets/projects/invoicehub/swagger.png)
 
 ## Referecens
 

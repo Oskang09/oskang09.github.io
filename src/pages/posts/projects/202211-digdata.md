@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: JS Library - Digdata
 description: A lightweight, zero-dependency utility for handling object data.
 pubDate: 2022-11-01
-imgSrc: '/assets/projects/digdata.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/digdata.png'
 imgAlt: 'digdata'
 technologies:
 - javascript

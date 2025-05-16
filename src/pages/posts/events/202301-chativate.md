@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Chativate - Omni Channel Chat Messaging Platform
 description: Migration and transformation pave the path for the new BoostBiz!
 pubDate: 2021-10-01
-imgSrc: '/assets/events/chativate.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/chativate.png'
 imgAlt: 'chativate'
 ---
 

@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: BoostBiz - Axiata Digital
 description: Migration and transformation pave the path for the new BoostBiz!
 pubDate: 2021-10-01
-imgSrc: '/assets/events/boostbiz.png'
+imgSrc: 'https://cdn.oskadev.com/assets/events/boostbiz.png'
 imgAlt: 'boostbiz'
 ---
 

@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Bulter - Freelance Engineer
 description: Working as Frontend & DevOps Engineer and learn a little of Ruby!
 pubDate: 2020-09-01
-imgSrc: '/assets/projects/bulter.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/bulter.png'
 imgAlt: 'bulter'
 technologies:
 - ruby

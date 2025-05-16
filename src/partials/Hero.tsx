@@ -59,7 +59,7 @@ const Hero = () => (
       avatar={
         <img
           className="mt-8 h-64 w-64 rounded-lg"
-          src="/assets/images/me.jpeg"
+          src="https://cdn.oskadev.com/assets/images/me.jpeg"
           alt="oska image"
           loading="lazy"
         />
@@ -67,31 +67,49 @@ const Hero = () => (
       socialButtons={
         <>
           <a target="_blank" href="https://www.linkedin.com/in/oskang09/">
-            <HeroSocial src="/assets/images/logo-linkedin.png" alt="Linkedin" />
+            <HeroSocial
+              src="https://cdn.oskadev.com/assets/images/logo-linkedin.png"
+              alt="Linkedin"
+            />
           </a>
           <a target="_blank" href="https://www.facebook.com/oskaszechen/">
-            <HeroSocial src="/assets/images/logo-facebook.png" alt="Facebook" />
+            <HeroSocial
+              src="https://cdn.oskadev.com/assets/images/logo-facebook.png"
+              alt="Facebook"
+            />
           </a>
           <a target="_blank" href="https://twitter.com/oska_ng">
-            <HeroSocial src="/assets/images/logo-twitter.png" alt="Twitter" />
+            <HeroSocial
+              src="https://cdn.oskadev.com/assets/images/logo-twitter.png"
+              alt="Twitter"
+            />
           </a>
           <a target="_blank" href="https://www.instagram.com/oska_0714/">
             <HeroSocial
-              src="/assets/images/logo-instagram.png"
+              src="https://cdn.oskadev.com/assets/images/logo-instagram.png"
               alt="Instagram"
             />
           </a>
           <a target="_blank" href="https://steamcommunity.com/id/oskang09/">
-            <HeroSocial src="/assets/images/logo-steam.png" alt="Steam" />
+            <HeroSocial
+              src="https://cdn.oskadev.com/assets/images/logo-steam.png"
+              alt="Steam"
+            />
           </a>
           <a
             target="_blank"
             href="https://discordapp.com/users/140747193664536576"
           >
-            <HeroSocial src="/assets/images/logo-discord.png" alt="Discord" />
+            <HeroSocial
+              src="https://cdn.oskadev.com/assets/images/logo-discord.png"
+              alt="Discord"
+            />
           </a>
           <a href="mailto:inquiry@oskadev.com">
-            <HeroSocial src="/assets/images/logo-email.png" alt="Email" />
+            <HeroSocial
+              src="https://cdn.oskadev.com/assets/images/logo-email.png"
+              alt="Email"
+            />
           </a>
         </>
       }

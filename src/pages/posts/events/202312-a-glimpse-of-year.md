@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: A Glimpse Of 2023 at Revenue Monster
 description: Reflecting on the long journey and happy moments of 2023, both personally and with Revenue Monster, brings a sense of fulfillment and joy.
 pubDate: 2023-12-31
-imgSrc: '/assets/events/glimpse2023/1.jpeg'
+imgSrc: 'https://cdn.oskadev.com/assets/events/glimpse2023/1.jpeg'
 imgAlt: 'revenue-monster-group-photo'
 ---
 

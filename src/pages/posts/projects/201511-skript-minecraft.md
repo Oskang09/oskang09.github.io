@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Skript - Minecraft Plugins
 description: Minecraft plugin for Spigot that enables administrators to create unique and inspiring features for their servers.
 pubDate: 2015-11-01
-imgSrc: '/assets/projects/skript.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/skript.png'
 imgAlt: 'skript'
 featured: true
 technologies:

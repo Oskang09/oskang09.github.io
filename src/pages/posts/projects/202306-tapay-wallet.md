@@ -3,7 +3,7 @@ layout: '@/templates/BaseProject.astro'
 title: Tapay eWallet
 description: A brand new wallet to complies with Bank Negara Malaysia (BNM) requirements.
 pubDate: 2023-06-01
-imgSrc: '/assets/projects/wallet/logo.png'
+imgSrc: 'https://cdn.oskadev.com/assets/projects/wallet/logo.png'
 imgAlt: 'logo'
 technologies:
 - go

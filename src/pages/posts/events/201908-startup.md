@@ -3,7 +3,7 @@ layout: '@/templates/BaseEvent.astro'
 title: Failed Startup @ Ordo Malaysia
 description: Startup period from December 2018 to Auguest 2019
 pubDate: 2019-06-01
-imgSrc: '/assets/events/startup.jpeg'
+imgSrc: 'https://cdn.oskadev.com/assets/events/startup.jpeg'
 imgAlt: 'ordo-malaysia'
 ---
 
