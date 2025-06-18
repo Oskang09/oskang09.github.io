@@ -12,7 +12,7 @@ technologies:
 
 The Phone Shop Management System (PSMS) is a comprehensive software solution designed to streamline operations for phone shops, enabling efficient management of inventory, sales, and customer interactions.
 
-![datview](/assets/projects/psms-data.png)
+![datview](https://cdn.oskadev.com/assets/projects/psms-data.png)
 
 ## Key Highlights
 
@@ -21,7 +21,7 @@ The Phone Shop Management System (PSMS) is a comprehensive software solution des
 3. Support receipt & invoice templating and printing for supplier invoice and customer invoice.
 4. Jobsheet Record & Display - for customer's phone brand, model, lockscreen, password and imei.
 
-![jobsheet](/assets/projects/psms-jobsheet.png)
+![jobsheet](https://cdn.oskadev.com/assets/projects/psms-jobsheet.png)
 
 ## References 
 

@@ -32,9 +32,9 @@ As of 2024/06/11: This wallet is still not replace the old one yet.
 
 ## Displays
 
-![home](/assets/projects/wallet/1.png)
+![home](https://cdn.oskadev.com/assets/projects/wallet/1.png)
 
-![wallet](/assets/projects/wallet/2.png)
+![wallet](https://cdn.oskadev.com/assets/projects/wallet/2.png)
 
 
 ## References

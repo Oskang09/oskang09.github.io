@@ -25,4 +25,4 @@ Due to the absence of a technical department at the vendor, I collaborated with 
 
 Finally, I want to express my gratitude to the team for their collaboration and to those who continued my work after I left the freelance projects due to personal reasons. I received appreciation from the maintainer during that time, which I truly value. The structure and architecture planning were inspired by the RiggitPlus meetup, which played a significant role in shaping my approach.
 
-![appreciation](/assets/projects/bulter-appreciation.jpeg)
+![appreciation](https://cdn.oskadev.com/assets/projects/bulter-appreciation.jpeg)

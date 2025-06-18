@@ -15,7 +15,7 @@ technologies:
 
 ## Summary Of Achievements & Plans 🥳
 
-![appraisal-2020](/assets/projects/appraisal-2020.png)
+![appraisal-2020](https://cdn.oskadev.com/assets/projects/appraisal-2020.png)
 
 During my progression from junior to senior, my focus primarily revolved around various aspects of the project, with a significant emphasis on payment-related functionalities.
 

@@ -15,7 +15,7 @@ This involves building plugins in Java/Kotlin to modify Minecraft's default beha
 
 This project underwent production testing and successfully went live for a duration of 1-2 months, supporting approximately 20-50 concurrent online users while maintaining stability. The decision to discontinue was prompted by the extensive time required for teardown, and the impracticality of maintaining this type of server when time constraints are a limiting factor.
 
-![logo](/assets/projects/ec-logo.jpeg)
+![logo](https://cdn.oskadev.com/assets/projects/ec-logo.jpeg)
 
 ## Key Highlights
 
@@ -42,6 +42,6 @@ This project underwent production testing and successfully went live for a durat
 
 ## Sponsored
 
-![sakura-vm](/assets/projects/ec-sponsor.png)
+![sakura-vm](https://cdn.oskadev.com/assets/projects/ec-sponsor.png)
 
 Servers are sponsored by [SakuraVM 櫻域虛擬主機 - Taiwan Engineering Group](https://www.sakuravm.net/). They have provided a high stability server and prevention from DDOS attack so we able to give our players to have a good gameplay experiences.

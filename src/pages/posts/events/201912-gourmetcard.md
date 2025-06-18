@@ -11,7 +11,7 @@ This is the first project for me in Revenue Monster, and I'm grateful for the co
 
 I endeavored to closely replicate the designer's output, striving for an identical application. The designer's work was truly commendable, and I aimed to faithfully reproduce their vision to the best of my ability. During the backend development, I received guidance from my senior engineer, Sian Loong, who specialized in database research and development. I'm grateful for his willingness to share his extensive knowledge and for the opportunity to learn alongside him, particularly on topics like spatial indexing.
 
-![gourmetcard](/assets/events/gourmetcard.png)
+![gourmetcard](https://cdn.oskadev.com/assets/events/gourmetcard.png)
 
 1. <a href="https://global.alipay.com/platform/site/product/mini-program">Alipay Mini Program</a>
 2. <a href="https://dribbble.com/shots/10727658-Alipay-Gourmet-Card-UI-Design">Dribble from Designer</a>

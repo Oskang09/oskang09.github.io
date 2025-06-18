@@ -18,7 +18,7 @@ technologies:
 ## Summary Of Achievements & Plans 🥳
 
 
-![appraisal-2021](/assets/projects/appraisal-2021.png)
+![appraisal-2021](https://cdn.oskadev.com/assets/projects/appraisal-2021.png)
 
 During my progression from senior to lead, my focus primarily revolved around various aspects of the project, with a significant emphasis on payment-related functionalities.
 

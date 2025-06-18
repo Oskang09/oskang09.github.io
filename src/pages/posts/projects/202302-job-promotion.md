@@ -17,7 +17,7 @@ technologies:
 
 ## Summary Of Achievements & Plans 🥳
 
-![appraisal-2021](/assets/projects/appraisal-2022.png)
+![appraisal-2021](https://cdn.oskadev.com/assets/projects/appraisal-2022.png)
 
 Throughout my journey, with a focus on payment products, I've dedicated efforts to enhance the codebase. This includes refactoring code to improve clarity for junior team members and implementing additional functionalities such as logging and information storage to facilitate end-to-end payment flow comprehension.
 

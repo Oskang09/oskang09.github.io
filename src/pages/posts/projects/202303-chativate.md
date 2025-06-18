@@ -28,9 +28,9 @@ As of 2024/06/11: This product is still not launched yet.
 
 ## Displays
 
-![widget](/assets/projects/chativate/widget.png)
+![widget](https://cdn.oskadev.com/assets/projects/chativate/widget.png)
 
-![inquiry](/assets/projects/chativate/inquiry.png)
+![inquiry](https://cdn.oskadev.com/assets/projects/chativate/inquiry.png)
 
 
 ## References

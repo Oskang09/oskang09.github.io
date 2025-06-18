@@ -15,4 +15,4 @@ Every journey has its conclusion, and as everyone moves towards new directions, 
 
 I'll consider this the end, encapsulated by the image below, illustrating the extent of our journey.
 
-![startup-end](/assets/events/startup-end.png)
+![startup-end](https://cdn.oskadev.com/assets/events/startup-end.png)

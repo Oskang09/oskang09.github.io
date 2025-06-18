@@ -12,7 +12,7 @@ technologies:
 
 Crackshot Builder streamlines the plugin creation process, empowering Minecraft server owners and developers to effortlessly design custom weapons, effects, and more, enhancing gameplay and engagement within their Minecraft worlds.
 
-![crackshot-builder-banner](/assets/projects/crackshot-builder-banner.png)
+![crackshot-builder-banner](https://cdn.oskadev.com/assets/projects/crackshot-builder-banner.png)
 
 ## Key Highlights
 

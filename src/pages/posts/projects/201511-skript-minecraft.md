@@ -14,11 +14,11 @@ technologies:
 
 I began using Skript during my secondary school years, and I must say it's an excellent tool for beginners to learn with. Working with Skript can provide developers with insights into modular structure, architecture, and even basic object-oriented programming concepts. While it may not delve deeply into these topics, it certainly lays a solid foundation that can be incredibly beneficial.
 
-![skript-sample](/assets/projects/skript-sample.jpeg)
+![skript-sample](https://cdn.oskadev.com/assets/projects/skript-sample.jpeg)
 
 During my time managing a Minecraft game server and working as a developer to introduce new gameplay features, these two tools were the top choices available. What's more, they were both open and free for anyone to use.
 
-![skript-banner](/assets/projects/skript-banner.png)
+![skript-banner](https://cdn.oskadev.com/assets/projects/skript-banner.png)
 
 ## Thanking Everyone for Their Support 
 

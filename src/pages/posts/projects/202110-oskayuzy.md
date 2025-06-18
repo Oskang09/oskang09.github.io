@@ -20,4 +20,4 @@ Additionally, there's a "make your own" readme section that you can clone and up
 
 | Desktop | Mobile | 
 | :--: | :--: |
-| ![desktop-view](/assets/projects/oskayuzy-desktop.jpg) | ![mobile-view](/assets/projects/oskayuzy-mobile.jpg) |
+| ![desktop-view](https://cdn.oskadev.com/assets/projects/oskayuzy-desktop.jpg) | ![mobile-view](https://cdn.oskadev.com/assets/projects/oskayuzy-mobile.jpg) |

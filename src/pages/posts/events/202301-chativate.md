@@ -15,4 +15,4 @@ Utilizing my accumulated knowledge, I pursued a multi-organization design to acc
 
 In my role as a backend engineer, I'm grateful for the opportunity to learn extensively. Throughout this journey, I've gained insights into the distinctions between relational and NoSQL databases. Each type has its own strengths and ideal use cases. Fortunately, for our system, we've implemented the appropriate database, which has significantly accelerated certain requirements outlined by the product team.
 
-![chativate-demo](/assets/events/chativate-sample.png)
+![chativate-demo](https://cdn.oskadev.com/assets/events/chativate-sample.png)

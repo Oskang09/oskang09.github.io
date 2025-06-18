@@ -15,7 +15,7 @@ technologies:
 
 During my internship, I received training to work on frontend functionality, such as pagination, page routing, and modular components. Additionally, I learned to align my work with the designer's specifications to ensure that the outcomes met the desired design standards.
 
-![hermo-view](/assets/projects/hermo.png)
+![hermo-view](https://cdn.oskadev.com/assets/projects/hermo.png)
 
 Drawing on my MySQL database expertise, I played a role in boosting performance by fine-tuning resource-intensive queries and replacing them with more streamlined alternatives within the Laravel PHP codebase.
 

@@ -12,7 +12,7 @@ technologies:
 
 This involves building plugins in Java/Kotlin to modify Minecraft's default behavior. It includes numerous homemade features such as an item system to enhance both PvE and PvP experiences, a GUI system for buying and selling items from NPCs, and an NPC system supporting various functions like storage, item repairing, titles, auctions, and quests. Additionally, it features simple daily and weekly quests, as well as automatic boss spawning and custom events based on specific times in UTC+8.
 
-![logo](/assets/projects/ec-logo.jpeg)
+![logo](https://cdn.oskadev.com/assets/projects/ec-logo.jpeg)
 
 ## Key Highlights
 
@@ -30,6 +30,6 @@ This involves building plugins in Java/Kotlin to modify Minecraft's default beha
 
 ## Sponsored
 
-![sakura-vm](/assets/projects/ec-sponsor.png)
+![sakura-vm](https://cdn.oskadev.com/assets/projects/ec-sponsor.png)
 
 Servers are sponsored by [SakuraVM 櫻域虛擬主機 - Taiwan Engineering Group](https://www.sakuravm.net/). They have provided a high stability server and prevention from DDOS attack so we able to give our players to have a good gameplay experiences.

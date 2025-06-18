@@ -13,6 +13,6 @@ Due to the movement control order (MCO), attending the company town hall event p
 
 The event provided a unique opportunity for everyone to connect, as most of us had been working remotely and had not yet met in person. It was refreshing to finally put faces to the names we had been collaborating with virtually.
 
-![company-town-hall](/assets/events/town-hall-2021.png)
+![company-town-hall](https://cdn.oskadev.com/assets/events/town-hall-2021.png)
 
 > Project & Experience showcase may go to [Projects](/posts/projects/202205-job-promotion/) section!

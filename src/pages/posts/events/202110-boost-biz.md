@@ -17,4 +17,4 @@ I'm still delighted to collaborate with everyone at Axiata Digital. Hopefully, w
 
 | Desktop | Mobile | 
 | :--: | :--: |
-| ![desktop-view](/assets/events/boostbiz-desktop.png) | ![mobile-view](/assets/events/boostbiz-mobile.png) |
+| ![desktop-view](https://cdn.oskadev.com/assets/events/boostbiz-desktop.png) | ![mobile-view](https://cdn.oskadev.com/assets/events/boostbiz-mobile.png) |

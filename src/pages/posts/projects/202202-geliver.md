@@ -11,11 +11,11 @@ technologies:
 
 This extension was developed to streamline communication with gRPC when dealing with microservices. During earlier times, there were limited tools available for debugging gRPC, which prompted the creation of this extension. This tool has been actively used by our internal team because it accelerates testing for services directly, rather than relying on calls from the API, which previously necessitated starting multiple servers.
 
-![geliver-grpc](/assets/projects/geliver-grpc.png)
+![geliver-grpc](https://cdn.oskadev.com/assets/projects/geliver-grpc.png)
 
 Previously, the system relied on server-side rendering HTML with Go code to internally call gRPC services, which occasionally led to issues. However, with the introduction of Geliver, these problems have been mitigated.
 
-![geliver-web](/assets/projects/geliver-web.png)
+![geliver-web](https://cdn.oskadev.com/assets/projects/geliver-web.png)
 
 With the release of gRPC support by [Postman](https://www.postman.com), this extension has reached its conclusion. I believe that under Postman, the API and gRPC testing tools will continue to evolve and improve further.
 

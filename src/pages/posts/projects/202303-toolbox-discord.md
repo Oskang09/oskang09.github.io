@@ -23,7 +23,7 @@ A personal Discord toolbox bot designed primarily to expedite problem-solving an
 8. Shortlink + File Serving with [Ngrok](https://ngrok.com/)!
 9. Music Player Bot with [ffmpeg](https://ffmpeg.org/download.html)!
 
-![discord-toolbox-music](/assets/projects/discord-toolbox-music.png)
+![discord-toolbox-music](https://cdn.oskadev.com/assets/projects/discord-toolbox-music.png)
 
 ## References 
 

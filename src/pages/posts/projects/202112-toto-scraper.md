@@ -27,13 +27,13 @@ TotoScraper is a Go utility designed to scrape toto data from various existing w
 3. Digit Frequency - How many times digits frequency count in Matrix view.
 4. Pair Frequency - How many times same digits more than once in Matrix view. 
 
-![toto-scraper-chart](/assets/projects/toto-scraper-chart.png)
+![toto-scraper-chart](https://cdn.oskadev.com/assets/projects/toto-scraper-chart.png)
 
 
 ## Sample Result
 
 | Info | Image |
 | :--: | :--: |
-| Data | ![toto-scraper-data](/assets/projects/toto-scraper-data.png) |
-| Digit Frequency | ![toto-scraper-dfc](/assets/projects/toto-scraper-dfc.png) |
-| Pair Frequency | ![toto-scraper-pfc](/assets/projects/toto-scraper-pfc.png) | 
+| Data | ![toto-scraper-data](https://cdn.oskadev.com/assets/projects/toto-scraper-data.png) |
+| Digit Frequency | ![toto-scraper-dfc](https://cdn.oskadev.com/assets/projects/toto-scraper-dfc.png) |
+| Pair Frequency | ![toto-scraper-pfc](https://cdn.oskadev.com/assets/projects/toto-scraper-pfc.png) | 

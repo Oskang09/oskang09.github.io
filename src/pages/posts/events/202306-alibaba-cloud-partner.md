@@ -9,7 +9,7 @@ imgAlt: 'alibabacloud-innovative-partner-award'
 
 We've partnered with Alibaba Cloud for some time, relying on their flexible solutions for our cloud requirements. Their continuous support and excellent cloud offerings are invaluable to us. Today, we're thrilled to announce that we've been honored as the Most Innovative Partner by Alibaba Cloud. We're truly grateful for this recognition, both for my team and on behalf of our company.
 
-![alibabacloud-innovative-partner](/assets/events/alibabacloud-innovative-partner.png)
+![alibabacloud-innovative-partner](https://cdn.oskadev.com/assets/events/alibabacloud-innovative-partner.png)
 
 ## References
 
